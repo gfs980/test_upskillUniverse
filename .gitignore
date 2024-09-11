@@ -1,0 +1,24 @@
+# Ignore all node_modules directories within any subdirectory
+**/node_modules/
+
+# Ignore virtual environment directories for Python projects
+**/venv/
+**/.venv/
+**/env/
+
+# Ignore environment variable files (if any)
+**/.env
+
+# Ignore Python bytecode files
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore logs
+**/*.log
